@@ -1,0 +1,166 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(250,250,250,1);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.instagram {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+
+.login-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+	min-height: 34rem;
+}
+
+.grupo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+	margin-bottom: 8px;
+
+}
+
+.instagram-logo {
+	width: 195px;
+	margin-bottom: 30px;
+}
+
+.inputs{
+	width: 100%;
+	padding: 0 3rem;
+}
+
+::placeholder {
+	color: rgba(142,142,142,1);
+}
+
+.input-text {
+	background: rgba(250,250,250,1);
+	border: 1px solid rgba(219,219,219,1);
+	border-radius: 3px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	font-size: 12px;
+	width: 100%;
+	height: 36px;
+	margin-bottom: 6px;
+	padding: 5px;
+}
+
+.entrar {
+	background-color: #0095f6;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+	padding: 8px;
+	margin-top: 12px;
+}
+
+.nao-conta {
+	font-size: 14px;
+}
+
+.link-azul {
+	color: #0095f6;
+	font-size: 14px;
+}
+
+.obter-app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 2rem 0;
+}
+
+.botoes-loja {
+	display: flex;
+	flex-direction: row;
+}
+
+.botao-size {
+	box-sizing: content-box;
+	height: 40px;
+	padding: 8px;
+	margin-top: 12px;
+}
+
+.outro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;
+}
+
+.facebook {
+	color: #3C5A99;
+	font-weight: bold;
+}
+
+.facebook-margin {
+	margin-top: 20px;
+}
+
+.esqueceu-senha{
+	color: #3C5A99;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+/* media queries */
+
+@media (max-width: 1300px) {
+	.instagram {
+		width: 70%;
+	}
+}
+
+@media (max-width: 900px) {
+	body {
+		background-color: white;
+	}
+
+	.instagram {
+		width: 60%;
+	}
+
+	.celular-content {
+		display: none;
+	}
+
+	.login-content {
+		width: 100%;
+	}
+}
